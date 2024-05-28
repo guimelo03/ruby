@@ -1,8 +1,15 @@
 <h1>Seja bem vindo!</h1>
 <p>Guilherme Melo</p>
 
-<p>A soma é: <%= 1 + 1 %></p>
-<p> Seu nome de trás pra frente é: <%= "Guilherme".reverse%></p>
-<% ax = "A minha variável a"%>
-<p>Imprimindo a variavel a: <%= ax %></p>
-<p> A data de hoje é: <%= Date.today %></p>
+<p><strong>Data:</strong>  <%= data_br(Date.today)%></p>
+
+ <%= render "menu" %>
+
+<ul>
+    <li>
+    <%= link_to "Cadastro de Moedas", coins_path %>
+    </li>
+    <p>Você está no ambiente de <strong> <%= ambiente_rails %> </strong></p>
+
+    <p>Eu sou uma variável de instância/sessão <strong><%= @nome %></strong> </p>
+</ul>
