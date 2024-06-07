@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # ruby
-Projetos de aulas e independentes desenvolvidos em ruby
+Projetos de aulas e projetos independentes desenvolvidos em ruby
 =======
 # README
 
