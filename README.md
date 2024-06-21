@@ -1,6 +1,6 @@
 <<<<<<< HEAD
-# ruby
-Projetos de aulas e projetos independentes desenvolvidos em ruby
+# Curso Ruby
+Primeira aplicação desenvolvida em ruby
 =======
 # README
 
